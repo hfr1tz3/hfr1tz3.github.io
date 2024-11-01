@@ -31,7 +31,7 @@ First I am interested in a spatial generalization for mapper to a higher dimensi
  called <b> 2-mapper</b>,
 and it's stability. 
 I am also investigating encoding mapper for temporal features for dynamical systems,
- called <strong>temporal mapper</strong>.
+ called <strong>temporal mapper</strong>. </p>
 
 <p> I also have works in algorithm development for inference of coalescent haplotypes in the genomics 
   library <a href="https://tskit.dev/">tskit</a> under the mentorship of 
@@ -40,7 +40,9 @@ I am also investigating encoding mapper for temporal features for dynamical syst
   <a href="https://med.stanford.edu/profiles/sharada-kalanidhi">Sharada Kalanidhi</a>.
 </p>
 
-<iframe src="files2/torus_ex.html", height="500", width="900"> <p>display</p></iframe>
+<p>Check out this interactive graph for 2-mapper! </p>
+
+<div id="iframe-location"></div>
 
 </p><h3>Papers</h3>
 <ul>
@@ -104,5 +106,36 @@ I am also investigating encoding mapper for temporal features for dynamical syst
     University of Oregon, Neuroscience Journal Club, November 2023.
   </li>
 </ul>
+
+<script>
+  const idealIFrameWidth = 1016;
+  const idealIFrameHeight = 518;
+
+  window.addEventListener('load', () => { 
+    const iframe = document.createElement('iframe');
+    iframe.src = 'files2/torus_ex.html';
+    iframe.loading = 'lazy';
+    iframe.width = `${idealIFrameWidth}`;
+    iframe.height = `${idealIFrameHeight}`;
+    
+    iframe.style.transformOrigin = "0 50%";
+
+    function resizeIFrame()
+    {
+      const bodyWidth = document.body.getBoundingClientRect().width;
+      const scale = bodyWidth / idealIFrameWidth;
+      iframe.style.transform = `scale(${scale})`;
+    }
+
+    resizeIFrame();
+    window.addEventListener("resize", resizeIFrame);
+    
+    document.body.insertBefore(
+      iframe,
+      document.querySelector("#iframe-location")
+    )
+  });
+  // <iframe src="files2/torus_ex.html", height="500", width="900"> <p>display</p></iframe>
+</script>
 
 </body></html>
