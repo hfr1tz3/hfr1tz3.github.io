@@ -23,94 +23,144 @@
 </ul>
 </div>
 </div>
-<h2>Topological Data Analysis</h2>
-<p>Most of my research attention is devoted
-to topological data analysis from an implementation perspective.
-I am currently interested in generalizing the mapper graph for applications.
-First I am interested in a spatial generalization for mapper to a higher dimensional simplicial complex,
- called <b> 2-mapper</b>,
-and it's stability. 
-I am also investigating encoding mapper for temporal features for dynamical systems,
- called <strong>temporal mapper</strong>. </p>
 
-<p> I also have works in algorithm development for inference of coalescent haplotypes in the genomics 
-  library <a href="https://tskit.dev/">tskit</a> under the mentorship of 
-  <a href="https://pages.uoregon.edu/plr/">Peter Ralph</a>, as well as experience as a statistician for the
-  <a href="https://med.stanford.edu/sgtc.html">Stanford Genome Technology Center</a> under the mentorship of
-  <a href="https://med.stanford.edu/profiles/sharada-kalanidhi">Sharada Kalanidhi</a>.
+<h2> Contents </h2>
+<ul class="toc-list" role="list">
+  <li><a href="#research-interests">Research</a></li>
+  <li><a href="#works-in-progress">Works in Progress</a></li>
+  <li><a href="#papers">Papers</a></li>
+    <ul role="list">
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#conference-proceedings"> Conference Proceedings</a></li>
+      <!--<li><a href="#preprints">Preprints</a></li>-->
+      <li><a href="#other-contributions">Other Contributions</a></li>
+    </ul>
+</ul>
+
+<section id="research-interests"><h2>Research</h2></section>
+<p>
+  Most of my research attention is devoted
+  to topological data analysis from an implementation perspective.
+  I blend theory from <b>topology</b> and <b>geometry</b> to solve <b>data-driven</b>
+  problems.
+  My thesis implements higher dimensional visualizations of the mapper algorithm, called <em>2-Mapper</em>,
+  and constructs persistence barcodes for filtrations of mapper complexes.
+  I write code mostly in <b>Python</b> and <b>R</b>.
+  Currently, I am thinking about using topological data analysis to identify 
+  points of genetic recombination in ancestral recombination graphs with 
+  <a href="https://jthlab.github.io/">Jonathan Terhorst</a>.
 </p>
 
-<p>Check out this interactive graph for 2-mapper! </p>
+<p>
+  My research experiences also include applications of graph theory and topology 
+  in <b>earth science</b>, <b> climate science</b>, and <b> population genomics</b>.
+  In particular, I have developed algorithms for inference of coalescent haplotypes in the genomics 
+  library <a href="https://tskit.dev/">tskit</a> under the mentorship of 
+  <a href="https://pages.uoregon.edu/plr/">Peter Ralph</a>, 
+  and I have experience as a statistician for the
+  <a href="https://med.stanford.edu/sgtc.html">Stanford Genome Technology Center</a> under the mentorship of
+  <a href="https://med.stanford.edu/profiles/sharada-kalanidhi">Sharada Kalanidhi</a>.
+  I am always looking for new and exciting interdisciplinary projects that could use 
+  topological data analysis in the natural sciences.
+</p>
+
+
+<p> 
+</p>
+
+<p> You can find me on 
+  <a href="https://arxiv.org/search/?query=Fritze%2C+Halley&searchtype=author&abstracts=show&order=-announced_date_first&size=50">arXiv</a>,
+  <a href="https://www.biorxiv.org/search/author1%3AFritze%252C%2BHalley%20jcode%3Abiorxiv%20numresults%3A10%20sort%3Arelevance-rank%20format_result%3Astandard">bioRxiv</a>,
+  <a href="https://scholar.google.com/citations?user=mKlJ6H8AAAAJ&hl=en">Google Scholar</a>,
+  <a href="https://orcid.org/0000-0002-1171-2068">ORCiD</a>.
+</p>
 
 <div id="iframe-location"></div>
 
-</p><h3>Papers</h3>
+<section id="works-in-progress"><h2>Works in Progress</h2></section>
+
 <ul>
   <li>
-    <b>2-Mapper: Inferring topological structure through higher order mapper.</b>
-    Halley Fritze, Dev Sinha (in progress 2024).
+    <b>Topological Data Analysis for Prediction of Recombination in ARGs.</b>
+    <u>Halley Fritze</u>, Jonathan Terhorst.
+  </li>
+  <p></p>
+  <li>
+    <b>Restricted Mapper Classes.</b>
+    Enrique Alvarado, Robin Belton, <u>Halley Fritze</u>.
+  </li>
+  <p></p>
+  <li>
+    <b>Engineering Mapper Graphs.</b>
+    Enrique Alvarado, Robin Belton, Nicholas Della Pesca, Aine Doherty, <u>Halley Fritze</u>.
   </li>
   <p></p>
   <li>
     <b>Identifying orbits in atmostpheric dynamical systems through temporall enriched mapper graphs.</b>
-    Halley Fritze, Dev Sinha, Joshua Dorrington (in progress).
+    Robyn Brooke, Joshua Dorrington, <u>Halley Fritze</u>.
   </li>
   <p></p>
   <li>
     <b>Neutrophil State-space Modeling: Combining morphology and dynamics.</b>
-    Halley Fritze, Bhagirath Mehta, Alexandra Stavrianidi, Arianna Cao, Ishani Mukherji, Dev Sinha, Ronald Davis, Sharada
-    Kalanidhi (in progress 2024).
+    <u>Halley Fritze</u>, Bhagirath Mehta, Alexandra Stavrianidi, Arianna Cao, Ishani Mukherji, Dev Sinha, Ronald Davis, Sharada
+    Kalanidhi.
+  </li>
+  <p></p>
+</ul>
+
+<h2 id="papers"> Papers</h2>
+
+
+<h3 id="publications">Publications</h3>
+<ul>
+<li>
+    <a href="https://arxiv.org/abs/2406.06642"><b>TopoBench: A Framework for Benchmarking Topological Deep Learning.</b></a>
+    Lev Telyatnikov, Guillermo Bernardez, <b>Halley Fritze</b>, Marissa Masden, et al.
+    <i>Accepted to the Journal of Data-centric Machine Learning Research (DMLR), July 2025.</i>
+</li>
+<p></p>
+<li>
+    <a href="https://www.biorxiv.org/content/10.1101/2024.11.30.626138v4"><b>A forest is more than a bunch of trees: haplotypes in inferred ARGs.</b></a>
+    <b>Halley Fritze</b>, Peter Ralph, Nathaniel Pope, Jerome Kelleher. <i> Accepted to Genetics, May 2025.</i><br>
+    <p style="text-align: center;"><img style="width: 500px; height: 300px;" alt="" src="files2/ARG-paper.png"></p><br>
+</li>
+
+</ul>
+<h3 id="conference-proceedings">Conference Proceedings</h3>
+
+<ul>
+  <li>
+    <b>Multiscale 2-mapper -- Exploratory Data Analysis Guided by the First Betti Number.</b>
+    <u>Halley Fritze.</u>
+    <a href="https://comptag.github.io/atmcs11/call.html"><i>The 11th conference in the Algebraic Topology: Methods, Computation, & Science (ATMCS)</i></a>,
+    July 2025.
+    <p style="text-align: center;"><img style="width: 650px; height: 200px;" alt="" src="files2/2-mapper.png"></p><br>
   </li>
   <p></p>
   <li>
-    <b>A forest is more than a bunch of trees: haplotypes in inferred ARGs.</b>
-    Halley Fritze, Peter Ralph, Nathaniel Pope, Jerome Kelleher (2024).<br>
-    <a href="https://www.biorxiv.org/content/10.1101/2024.11.30.626138v2"> Submitted.</a>
+    <b><a href="https://arxiv.org/abs/2410.19410">Faithful Reeb Graph Reconstruction of a Tectonic Subduction Zone from Earthquake Hypocenters.</a></b>
+    <u>Halley Fritze</u>, Sushovan Majhi, Marissa Masden, Atish Mitra, Michael Stickney.
+    <a href="https://comptag.github.io/atmcs11/call.html"><i>The 11th conference in the Algebraic Topology: Methods, Computation, & Science (ATMCS)</i></a>,
+    July 2025.
+    <p style="text-align: center;"><img style="width: 400px; height: 300px;" alt="" src="files2/earthquakes.png"></p><br>
+  </li>
+</ul>
+
+<h3 id="other-contributions">Other Contributions</h3>
+<ul>
+  <li>
+    <a href="https://pyt-team.github.io/packs/challenge.html"><b>ICML Topological Deep Learning Challenge 2024: Beyond the Graph Domain.</b></a> 
+    Submission #48. 
+    Halley Fritze, Marissa Masden.<em> Honorable Mention and Highlighted Submission.</em><br>
+    <p style="text-align: center;"><img style="width: 350px; height: 400px;" alt="" src="files2/ICML.png"></p><br>
   </li>
   <p></p>
   <li>
-    <b>Embedded Graph Reconstruction Under Hausdorff Noise.</b>
-    Halley Fritze, Sushovan Majhi, Marissa Masden, Atish Mitra, Michael Stickney (2024).<br>
-    <a href="https://arxiv.org/pdf/2410.19410">Extended Abstract for 2024 Fall Conference in Computational Geometry.</a>
-  </li>
-  <p></p>
-  <li>
-    <b>ICML Topological Deep Learning Challenge 2024: Beyond the Graph Domain. Submission #48.</b> 
-    Halley Fritze, Marissa Masden.<em>Honorable Mention and Highlighted Submission.</em><br>
-    <a href="https://arxiv.org/pdf/2409.05211">White Paper</a> (Extended paper in progress).
+    <a href="https://github.com/hfr1tz3/hopf\_bundle"><b>Foursquare Location Matching.</b></a>
+    <u>Halley Fritze</u>, Jay Hathaway, Max Vargas. <i>The Erdös Institute Data Science Bootcamp,</i> June 2022.    
   </li>
 </ul>
 <p></p>
-<h3>Talks</h3>
-<ul style="margin-bottom: 20px;">
-  <li> <b> A forest is more than its trees: haplotypes and ARGs.</b>
-    TSKIT-dev Seminar, Virtual, April 2025.
-  </li>
-  <p></p>
-  <li><b>Topological exploration through higher dimensional mapper graphs.</b>
-  AWM Pittsburgh Graduate Seminar, University of Pittsburgh, March 2025.
-  </li>
-  <p></p>
-  <li><b>Enhanced topological inference through higher dimensional mapper graphs.</b>
-  Joint Mathematics Meetings, AWM Poster Session, January 2025.
-  </li>
-  <p></p>
-  <li>
-    <b>Identifying orbits in atmospheric dynamical systems through mapper graphs.</b>
-    Joint Mathematics Meetings, January 2025.
-  </li>
-  <p></p>
-  <li>
-    <b>Stability of higher-order covers for mapper.</b>
-    Oregon State University, Topology and Geometry Seminar, November 2024.
-  </li>
-  <p></p>
-  <li>
-    <b> Embedded graph reconstruction under Hausdorff Noise.</b>
-    Fall Workshop in Computational Geometry, Tufts University, November 2024.
-  </li>
-  <p></p>
-</ul>
 
 <script>
   const idealIFrameWidth = 1016;
