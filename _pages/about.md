@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://lsa.umich.edu/stats'>University of Michigan Statistics Department.</a>. 
+subtitle: <a href='https://lsa.umich.edu/stats'>University of Michigan Statistics Department</a>. 
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -14,7 +14,7 @@ profile:
     <p>Ann Arbor, MI 48109</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -30,6 +30,8 @@ latest_posts:
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
 I'm a Postdoctoral Fellow in [Jonathan Terhorst's Lab](https://jthlab.github.io/)  working on problems in evolutionary statistics and topological data analysis.
+
+I received my Ph.D. in mathematics from the University of Oregon in June 2025 under the advisorship of [Dev Sinha](https://pages.uoregon.edu/dps/index.php). My dissertation, Multiscale 2-Mapper: Exploratory Data Analysis Guided by the First Betti Number, lies at the intersection of topological data analysis and computational geometry. My general research interests include applications of topology and geometry toward the computational and natural sciences, such as data analysis, population genomics and evolutionary statistics.
 
 This new website is under construction! Thank you for your patience. For more info about me see my [google scholar profile](https://scholar.google.com/citations?user=mKlJ6H8AAAAJ&hl=en).
 
