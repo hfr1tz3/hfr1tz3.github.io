@@ -8,13 +8,14 @@ profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
+  address: ""
   more_info: >
     <p>West Hall 441</p>
     <p>1085 S University Ave</p>
     <p>Ann Arbor, MI 48109</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
