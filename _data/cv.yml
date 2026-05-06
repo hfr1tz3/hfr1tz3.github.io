@@ -2,16 +2,16 @@ cv:
   name: Halley Fritze
   location: Department of Statistics, University of Michigan
   email: hfritze@umich.edu
-  website: https://hfr1tz3.github.io
+  website: "https://hfr1tz3.github.io"
 
   sections:
     academic_appointments:
       - company: University of Michigan
         location: Ann Arbor, MI
-        position: Van Loo Postdoctoral Fellow (Michigan Center for Applied and Interdisciplinary Mathematics)
+        position: "Van Loo Postdoctoral Fellow (Michigan Center for Applied and Interdisciplinary Mathematics)"
         start_date: 2026-08
         end_date: present
-      - company: Department of Statistics, University of Michigan
+      - company: "Department of Statistics, University of Michigan"
         location: Ann Arbor, MI
         position: Postdoctoral Research Fellow
         start_date: 2025-08
@@ -32,7 +32,7 @@ cv:
         degree: B.S. in Mathematics
         end_date: 2017-05
         highlights:
-          - Magna cum laude
+          - "Magna cum laude"
 
     journal_publications:
       - title: "A forest is more than a bunch of trees: haplotypes in inferred ARGs"
@@ -42,7 +42,7 @@ cv:
         date: 2026-01
       - title: "TopoBench: A Framework for Benchmarking Topological Deep Learning"
         authors: ["Lev Telyatnikov", "Guillermo Bernardez", "Halley Fritze", "et al."]
-        journal: The Journal of Data-centric Machine Learning Research
+        journal: "The Journal of Data-centric Machine Learning Research"
         date: 2025-01
 
     preprints:
@@ -76,6 +76,6 @@ cv:
 
     technical_skills:
       - label: Programming
-        details: Python (Strong), LaTeX (Strong), R, Java, C, C++, HTML
+        details: "Python (Strong), LaTeX (Strong), R, Java, C, C++, HTML"
       - label: Specialized Tools
-        details: msprime, tskit, SLIM, ImageJ/Fiji
+        details: "msprime, tskit, SLIM, ImageJ/Fiji"
