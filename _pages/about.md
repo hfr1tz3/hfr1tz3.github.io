@@ -8,8 +8,7 @@ profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: ""
-  more_info: >
+  address: >
     <p>West Hall 441</p>
     <p>1085 S University Ave</p>
     <p>Ann Arbor, MI 48109</p>

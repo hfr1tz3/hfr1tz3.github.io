@@ -4,43 +4,6 @@
     "label": "Postdoctoral Research Associate",
     "email": "hfritze@umich.edu"
   },
-  "work": [
-    {
-      "name": "University of Michigan",
-      "position": "Van Loo Postdoctoral Fellow",
-      "location": "Ann Arbor, MI",
-      "startDate": "2026-08-01",
-      "summary": "Michigan Center for Applied and Interdisciplinary Mathematics"
-    },
-    {
-      "name": "University of Michigan",
-      "position": "Postdoctoral Research Fellow",
-      "location": "Ann Arbor, MI",
-      "startDate": "2025-08-01",
-      "endDate": "2026-07-31",
-      "summary": "Department of Statistics"
-    }
-  ],
-  "projects": [
-    {
-      "name": "MATH 252Z: Integral Calculus (Calculus II)",
-      "description": "Instructor of Record",
-      "entity": "University of Oregon",
-      "type": "Teaching"
-    },
-    {
-      "name": "MATH 251Z: Differential Calculus (Calculus I)",
-      "description": "Instructor of Record",
-      "entity": "University of Oregon",
-      "type": "Teaching"
-    },
-    {
-      "name": "STAT 243Z: Introduction to Probability and Statistics",
-      "description": "Instructor of Record",
-      "entity": "University of Oregon",
-      "type": "Teaching"
-    }
-  ],
   "volunteer": [
     {
       "organization": "Mathematics Department Climate Committee",

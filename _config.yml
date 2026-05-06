@@ -658,11 +658,11 @@ jekyll_get_json:
 
 jsonresume:
   - basics
-  - work
+  # - work
   - education
   - publications
-  - projects
-  # - volunteer
+  # - projects
+  - volunteer
   - awards
   # - certificates
   # - skills
