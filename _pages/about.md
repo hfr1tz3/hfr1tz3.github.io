@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://lsa.umich.edu/stats'>University of Michigan Statistics Department</a>. 
 

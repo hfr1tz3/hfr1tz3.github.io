@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Currently on a research appointment. See CV for past courses.
 nav: true
 nav_order: 6
