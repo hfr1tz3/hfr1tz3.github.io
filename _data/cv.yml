@@ -1,6 +1,6 @@
 cv:
   name: Halley Fritze
-  location: Department of Statistics, University of Michigan
+  location: Ann Arbor, MI
   email: hfritze@umich.edu
   website: "https://hfr1tz3.github.io"
 
@@ -8,29 +8,31 @@ cv:
     academic_appointments:
       - company: University of Michigan
         location: Ann Arbor, MI
-        position: "Van Loo Postdoctoral Fellow (Michigan Center for Applied and Interdisciplinary Mathematics)"
+        position: "Van Loo Postdoctoral Fellow"
         start_date: 2026-08
         end_date: present
-      - company: "Department of Statistics, University of Michigan"
+      - company: University of Michigan
         location: Ann Arbor, MI
-        position: Postdoctoral Research Fellow
+        position: "Postdoctoral Research Fellow"
         start_date: 2025-08
         end_date: 2026-08
 
     education:
       - institution: University of Oregon
-        degree: Ph.D. in Mathematics
-        start_date: 2019-09
-        end_date: 2025-06
+        area: Mathematics
+        degree: Ph.D.
+        date: 2025
         highlights:
           - "Dissertation: Multiscale 2-Mapper: Exploratory Data Analysis Guided by the First Betti Number"
           - "Advisor: Dev Sinha"
       - institution: University of Oregon
-        degree: M.S. in Mathematics
-        end_date: 2021-06
+        area: Mathematics
+        degree: M.S.
+        date: 2021
       - institution: North Dakota State University
-        degree: B.S. in Mathematics
-        end_date: 2017-05
+        area: Mathematics
+        degree: B.S.
+        date: 2017
         highlights:
           - "Magna cum laude"
 
@@ -67,15 +69,18 @@ cv:
           - "STAT 243Z: Introduction to Probability and Statistics"
 
     honors_and_awards:
-      - label: Van Loo Postdoctoral Fellowship
-        year: 2026
-      - label: Marie Vitulli Scholar
-        year: 2019
-      - label: Ronald E. McNair Scholar
-        year: 2015
+      - label: "Van Loo Postdoctoral Fellowship"
+        details: "University of Michigan"
+        date: 2026
+      - label: "Marie Vitulli Scholar"
+        details: "University of Oregon"
+        date: 2019
+      - label: "Ronald E. McNair Scholar"
+        details: "North Dakota State University"
+        date: 2015
 
     technical_skills:
       - label: Programming
-        details: "Python (Strong), LaTeX (Strong), R, Java, C, C++, HTML"
+        details: "Python, LaTeX, R, Java, C, C++, HTML"
       - label: Specialized Tools
         details: "msprime, tskit, SLIM, ImageJ/Fiji"
