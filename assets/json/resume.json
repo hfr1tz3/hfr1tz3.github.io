@@ -4,48 +4,6 @@
     "label": "Postdoctoral Research Associate",
     "email": "hfritze@umich.edu"
   },
-  "volunteer": [
-    {
-      "organization": "Mathematics Department Climate Committee",
-      "position": "Graduate Student Member",
-      "url": "",
-      "startDate": "2021",
-      "endDate": "2025",
-      "summary": "University of Oregon"
-    },
-    {
-      "organization": "Association for Women in Mathematics (UO Chapter)",
-      "position": "Vice President / Speaker Series Committee",
-      "url": "",
-      "startDate": "2020",
-      "endDate": "2024",
-      "summary": "Social and Professional Enrichment Committee Chair"
-    },
-    {
-      "organization": "Graduate Topology and Geometry Seminar",
-      "position": "Organizer",
-      "url": "",
-      "startDate": "2022-01-01",
-      "endDate": "2024-01-01",
-      "summary": "University of Oregon"
-    },
-    {
-      "organization": "uCodeGirl",
-      "position": "Mentor",
-      "url": "",
-      "startDate": "2018-01-01",
-      "endDate": "2019-01-01",
-      "summary": "Non-profit organization mentoring girls in STEM"
-    },
-    {
-      "organization": "Sonia Kovalevsky Day",
-      "position": "Speaker",
-      "url": "",
-      "startDate": "2018-10-01",
-      "endDate": "2018-10-01",
-      "summary": "Led workshop on Kepler's Laws for high school girls"
-    }
-  ],
   "education": [
     {
       "institution": "University of Oregon",
@@ -86,7 +44,58 @@
       "name": "TopoBench: A Framework for Benchmarking Topological Deep Learning",
       "publisher": "The Journal of Data-centric Machine Learning Research",
       "releaseDate": "2025-01-01",
+      "url": "https://data.mlr.press/assets/pdf/v02-20.pdf",
       "summary": "Lev Telyatnikov, Guillermo Bernardez, Halley Fritze, et al."
+    }
+  ],
+    "volunteer": [
+    {
+      "organization": "Mathematics Department Climate Committee",
+      "position": "Graduate Student Member",
+      "url": "",
+      "startDate": "2021",
+      "endDate": "2025",
+      "summary": "University of Oregon"
+    },
+    {
+      "organization": "Association for Women in Mathematics (UO Chapter)",
+      "position": "Vice President",
+      "url": "https://sites.google.com/view/uo-awm/",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Social and Professional Enrichment Committee Chair"
+    },
+    {
+      "organization": "Graduate Topology and Geometry Seminar",
+      "position": "Organizer",
+      "url": "",
+      "startDate": "2022-01-01",
+      "endDate": "2024-01-01",
+      "summary": "University of Oregon"
+    },
+    {
+      "organization": "Association for Women in Mathematics (UO Chapter)",
+      "position": "Committee Chair",
+      "url": "https://sites.google.com/view/uo-awm/",
+      "startDate": "2020",
+      "endDate": "2023",
+      "summary": "Social and Professional Enrichment Committee"
+    },
+    {
+      "organization": "uCodeGirl",
+      "position": "Mentor",
+      "url": "",
+      "startDate": "2018-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Non-profit organization mentoring girls in STEM"
+    },
+    {
+      "organization": "Sonia Kovalevsky Day",
+      "position": "Speaker",
+      "url": "",
+      "startDate": "2018-10-01",
+      "endDate": "2018-10-01",
+      "summary": "Led workshop on Kepler's Laws for high school girls"
     }
   ],
   "awards": [

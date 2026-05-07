@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Current publications and preprints
+description: Current publications and preprints.
 nav: true
 nav_order: 2
 ---
@@ -15,6 +15,6 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --group_by type --group_order ascending %}
 
 </div>
