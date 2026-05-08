@@ -1,86 +1,169 @@
-cv:
-  name: Halley Fritze
-  location: Ann Arbor, MI
-  email: hfritze@umich.edu
-  website: "https://hfr1tz3.github.io"
+  - title: General Information
+    type: map
+    contents:
+      -name: Name:
+      -value: Halley Fritze
+      -name: Location
+      -value: Ann Arbor, MI
+      -name: Languages
+      -value: English
 
-  sections:
-    academic_appointments:
-      - company: University of Michigan
-        location: Ann Arbor, MI
-        position: "Van Loo Postdoctoral Fellow"
-        start_date: 2026-08
-        end_date: present
-      - company: University of Michigan
-        location: Ann Arbor, MI
-        position: "Postdoctoral Research Fellow"
-        start_date: 2025-08
-        end_date: 2026-08
-
-    education:
-      - institution: University of Oregon
-        area: Mathematics
-        degree: Ph.D.
-        date: 2025
-        highlights:
+  - title: Education
+    type: time_table
+    contents:
+      - title: Ph.D.
+        institution: University of Oregon
+        year: 2025
+        description:
+          - Advised by Dev Sinha
           - "Dissertation: Multiscale 2-Mapper: Exploratory Data Analysis Guided by the First Betti Number"
-          - "Advisor: Dev Sinha"
-      - institution: University of Oregon
-        area: Mathematics
-        degree: M.S.
-        date: 2021
-      - institution: North Dakota State University
-        area: Mathematics
-        degree: B.S.
-        date: 2017
-        highlights:
-          - "Magna cum laude"
 
-    journal_publications:
-      - title: "A forest is more than a bunch of trees: haplotypes in inferred ARGs"
-        authors: ["Halley Fritze", "Peter Ralph", "Nathaniel Pope", "Jerome Kelleher"]
-        journal: Genetics
-        doi: 10.1093/genetics/iyaf198
-        date: 2026-01
-      - title: "TopoBench: A Framework for Benchmarking Topological Deep Learning"
-        authors: ["Lev Telyatnikov", "Guillermo Bernardez", "Halley Fritze", "et al."]
-        journal: "The Journal of Data-centric Machine Learning Research"
-        date: 2025-01
+      - title: M.S.
+        institution: University of Oregon
+        year: 2021
 
-    preprints:
-      - title: "Population-scale Ancestral Recombination Graphs with tskit 1.0"
-        authors: ["Ben Jeffery", "Yan Wong", "Halley Fritze", "et al."]
-        journal: Submitted to Nature Methods
-        date: 2026-02
-      - title: "Faithful Reeb Graph Reconstruction of a Tectonic Subduction Zone from Earthquake Hypocenters"
-        authors: ["Halley Fritze", "Sushovan Majhi", "Marissa Masden", "Atish Mitra", "Michael Stickney"]
-        journal: Submitted to LaMatematica
-        date: 2026-01
-      - title: "Multiscale 2-mapper -- exploratory data analysis guided by the first Betti number"
-        authors: ["Halley Fritze"]
-        date: 2025-09
+      - title: B.S.
+        institution: North Dakota State University
+        year: 2017
 
-    teaching_experience:
-      - company: University of Oregon
-        position: Instructor of Record
-        highlights:
-          - "MATH 252Z: Integral Calculus (Calculus II)"
-          - "MATH 251Z: Differential Calculus (Calculus I)"
-          - "STAT 243Z: Introduction to Probability and Statistics"
+  - title: Academic Appointments
+    type: time_table
+    contents:
+      - title: Van Loo Postdoctoral Fellow
+        institution: University of Michigan
+        year: 2026 – 2027
+        items: 
+        - Michigan Center for Applied and Interdisciplinary Mathematics
 
-    honors_and_awards:
-      - label: "Van Loo Postdoctoral Fellowship"
-        details: "University of Michigan"
-        date: 2026
-      - label: "Marie Vitulli Scholar"
-        details: "University of Oregon"
-        date: 2019
-      - label: "Ronald E. McNair Scholar"
-        details: "North Dakota State University"
-        date: 2015
+      - title: Postdoctoral Research Fellow
+        institution: University of Michigan
+        year: 2025 – 2026
+        items:
+        - Department of Statistics
 
-    technical_skills:
-      - label: Programming
-        details: "Python, LaTeX, R, Java, C, C++, HTML"
-      - label: Specialized Tools
-        details: "msprime, tskit, SLIM, ImageJ/Fiji"
+  - title: Service and Outreach
+    type: time_table
+    contents:
+      - title: Graduate Student Member
+        institution: Mathematics Department Climate Committee
+        year: 2021 – 2025
+        description: University of Oregon
+      - title: Organizer
+        institution: Graduate Topology and Geometry Seminar
+        year: 2022 – 2024
+        description: University of Oregon
+      - title: Vice President
+        institution: "[Association for Women in Mathematics (UO Chapter)](https://sites.google.com/view/uo-awm/)"
+        year: 2022 – 2023
+      - title: Committee Chair
+        institution: "[Association for Women in Mathematics (UO Chapter)](https://sites.google.com/view/uo-awm/)"
+        year: 2020 – 2023
+        description: "Social and Professional Enrichment Committee"
+      - title: Mentor
+        institution: uCodeGirl
+        year: 2018 – 2019
+        description: Non-profit organization mentoring girls in STEM.
+      - title: Speaker
+        institution: "[Sonia Kovalevsky Day, NDSU](https://www.ndsu.edu/math/outreach/sonia_kovalevsky_day)"
+        year: 2018
+        description: Workshop on Kepler's Laws for high school girls.
+
+  - title: Honors and Awards
+    type: time_table
+    contents:
+      - title: Van Loo Postdoctoral Fellowship
+        institution: University of Michigan
+        year: 2026
+      - title: Marie Vitulli Scholar
+        institution: University of Oregon
+        year: 2019
+      - title: Ronald E. McNair Scholar
+        institution: North Dakota State University
+        year: 2015-2017
+
+# cv:
+  # name: Halley Fritze
+  # location: Ann Arbor, MI
+  # email: hfritze@umich.edu
+  # website: "https://hfr1tz3.github.io"
+
+  # sections:
+    # academic_appointments:
+    #   - company: University of Michigan
+    #     location: Ann Arbor, MI
+    #     position: "Van Loo Postdoctoral Fellow"
+    #     start_date: 2026-08
+    #     end_date: present
+    #   - company: University of Michigan
+    #     location: Ann Arbor, MI
+    #     position: "Postdoctoral Research Fellow"
+    #     start_date: 2025-08
+    #     end_date: 2026-08
+
+    # education:
+    #   - institution: University of Oregon
+    #     area: Mathematics
+    #     degree: Ph.D.
+    #     date: 2025
+    #     highlights:
+    #       - "Dissertation: Multiscale 2-Mapper: Exploratory Data Analysis Guided by the First Betti Number"
+    #       - "Advisor: Dev Sinha"
+    #   - institution: University of Oregon
+    #     area: Mathematics
+    #     degree: M.S.
+    #     date: 2021
+    #   - institution: North Dakota State University
+    #     area: Mathematics
+    #     degree: B.S.
+    #     date: 2017
+    #     highlights:
+    #       - "Magna cum laude"
+
+    # journal_publications:
+    #   - title: "A forest is more than a bunch of trees: haplotypes in inferred ARGs"
+    #     authors: ["Halley Fritze", "Peter Ralph", "Nathaniel Pope", "Jerome Kelleher"]
+    #     journal: Genetics
+    #     doi: 10.1093/genetics/iyaf198
+    #     date: 2026-01
+    #   - title: "TopoBench: A Framework for Benchmarking Topological Deep Learning"
+    #     authors: ["Lev Telyatnikov", "Guillermo Bernardez", "Halley Fritze", "et al."]
+    #     journal: "The Journal of Data-centric Machine Learning Research"
+    #     date: 2025-01
+
+    # preprints:
+    #   - title: "Population-scale Ancestral Recombination Graphs with tskit 1.0"
+    #     authors: ["Ben Jeffery", "Yan Wong", "Halley Fritze", "et al."]
+    #     journal: Submitted to Nature Methods
+    #     date: 2026-02
+    #   - title: "Faithful Reeb Graph Reconstruction of a Tectonic Subduction Zone from Earthquake Hypocenters"
+    #     authors: ["Halley Fritze", "Sushovan Majhi", "Marissa Masden", "Atish Mitra", "Michael Stickney"]
+    #     journal: Submitted to LaMatematica
+    #     date: 2026-01
+    #   - title: "Multiscale 2-mapper -- exploratory data analysis guided by the first Betti number"
+    #     authors: ["Halley Fritze"]
+    #     date: 2025-09
+
+    # teaching_experience:
+    #   - company: University of Oregon
+    #     position: Instructor of Record
+    #     highlights:
+    #       - "MATH 252Z: Integral Calculus (Calculus II)"
+    #       - "MATH 251Z: Differential Calculus (Calculus I)"
+    #       - "STAT 243Z: Introduction to Probability and Statistics"
+
+    # honors_and_awards:
+    #   - label: "Van Loo Postdoctoral Fellowship"
+    #     details: "University of Michigan"
+    #     date: 2026
+    #   - label: "Marie Vitulli Scholar"
+    #     details: "University of Oregon"
+    #     date: 2019
+    #   - label: "Ronald E. McNair Scholar"
+    #     details: "North Dakota State University"
+    #     date: 2015
+
+    # technical_skills:
+    #   - label: Programming
+    #     details: "Python, LaTeX, R, Java, C, C++, HTML"
+    #   - label: Specialized Tools
+    #     details: "msprime, tskit, SLIM, ImageJ/Fiji"
