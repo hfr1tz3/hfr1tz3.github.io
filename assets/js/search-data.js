@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "The following is a brief CV overview, see PDF for more detail. CV Last Updated May 2026.",
+          description: "Last Updated May 2026.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
