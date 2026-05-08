@@ -1,11 +1,11 @@
   - title: General Information
     type: map
     contents:
-      -name: Name:
+      -name: "Name:"
       -value: Halley Fritze
-      -name: Location
+      -name: "Location:"
       -value: Ann Arbor, MI
-      -name: Languages
+      -name: "Languages:"
       -value: English
 
   - title: Education
