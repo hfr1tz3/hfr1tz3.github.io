@@ -681,6 +681,6 @@ jsonresume:
   # - interests
   # - references
 
-# jsonresume_type_names:
-#   volunteer: "Service & Outreach"
+jsonresume_type_names:
+  volunteer: "Service & Outreach"
   # work: "Academic Appointments"
