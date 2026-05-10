@@ -114,5 +114,27 @@
       "date": "2015",
       "awarder": "North Dakota State University"
     }
-  ]
+  ],
+  "work": [
+  {
+    "company": "University of Michigan",
+    "position": "Van Loo Postdoctoral Fellow",
+    "location": "Ann Arbor, MI",
+    "startDate": "2026",
+    "endDate": "Present",
+    "highlights": [
+      "Michigan Center for Applied and Interdisciplinary Mathematics"
+    ]
+  },
+  {
+    "company": "University of Michigan",
+    "position": "Postdoctoral Research Fellow",
+    "location": "Ann Arbor, MI",
+    "startDate": "2025",
+    "endDate": "2026",
+    "highlights": [
+      "Department of Statistics"
+    ]
+  }
+]
 }
