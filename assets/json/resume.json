@@ -9,7 +9,7 @@
       "institution": "University of Oregon",
       "area": "Mathematics",
       "studyType": "Ph.D.",
-      "startDate": "2019-09-01",
+      "startDate": "2021-09-01",
       "endDate": "2025",
       "courses": [
         "Dissertation: Multiscale 2-Mapper: Exploratory Data Analysis Guided by the First Betti Number",
@@ -20,13 +20,15 @@
       "institution": "University of Oregon",
       "area": "Mathematics",
       "studyType": "M.S.",
-      "endDate": "2021"
+      "endDate": "2021",
+      "startDate": "2019"
     },
     {
       "institution": "North Dakota State University",
       "area": "Mathematics",
       "studyType": "B.S.",
       "endDate": "2017",
+      "startDate": "2013",
       "courses": [
         "Magna cum laude"
       ]
