@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-06'
+  last_updated: '2026-05-15'
 papers:
   mKlJ6H8AAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -30,7 +30,7 @@ papers:
     title: Enhanced topological inference through higher dimensional mapper graphs.
     year: Unknown Year
   mKlJ6H8AAAAJ:qjMakFHDy7sC:
-    citations: 6
+    citations: 7
     title: 'Topobench: A framework for benchmarking topological deep learning'
     year: '2024'
   mKlJ6H8AAAAJ:u-x6o8ySG0sC:
