@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Halley Fritze",
-    "label": "Postdoctoral Research Associate",
+    "label": "Van Loo Postdoctoral Fellow",
     "email": "hfritze@umich.edu"
   },
   "education": [
@@ -14,14 +14,16 @@
       "courses": [
         "Dissertation: Multiscale 2-Mapper: Exploratory Data Analysis Guided by the First Betti Number",
         "Advisor: Dev Sinha"
-      ]
+      ],
+      "location": "Eugene, OR"
     },
     {
       "institution": "University of Oregon",
       "area": "Mathematics",
       "studyType": "M.S.",
       "endDate": "2021",
-      "startDate": "2019"
+      "startDate": "2019",
+      "location": "Eugene, OR"
     },
     {
       "institution": "North Dakota State University",
@@ -31,7 +33,8 @@
       "startDate": "2013",
       "courses": [
         "Magna cum laude"
-      ]
+      ],
+      "location":"Fargo, ND"
     }
   ],
   "publications": [
@@ -57,7 +60,8 @@
       "url": "",
       "startDate": "2021",
       "endDate": "2025",
-      "summary": "University of Oregon"
+      "summary": "University of Oregon",
+      "location":"Eugene, OR"
     },
     {
       "organization": "Association for Women in Mathematics (UO Chapter)",
@@ -65,7 +69,8 @@
       "url": "https://sites.google.com/view/uo-awm/",
       "startDate": "2022",
       "endDate": "2023",
-      "summary": "Social and Professional Enrichment Committee Chair"
+      "summary": "Social and Professional Enrichment Committee Chair",
+      "location":"Eugene, OR"
     },
     {
       "organization": "Graduate Topology and Geometry Seminar",
@@ -73,7 +78,8 @@
       "url": "",
       "startDate": "2022-01-01",
       "endDate": "2024-01-01",
-      "summary": "University of Oregon"
+      "summary": "University of Oregon",
+      "location":"Eugene, OR"
     },
     {
       "organization": "Association for Women in Mathematics (UO Chapter)",
@@ -81,7 +87,8 @@
       "url": "https://sites.google.com/view/uo-awm/",
       "startDate": "2020",
       "endDate": "2023",
-      "summary": "Social and Professional Enrichment Committee"
+      "summary": "Social and Professional Enrichment Committee",
+      "location":"Eugene, OR"
     },
     {
       "organization": "uCodeGirl",
@@ -89,15 +96,17 @@
       "url": "",
       "startDate": "2018-01-01",
       "endDate": "2019-01-01",
-      "summary": "Non-profit organization mentoring girls in STEM"
+      "summary": "Non-profit organization mentoring girls in STEM",
+      "location":"Fargo, ND"
     },
     {
       "organization": "Sonia Kovalevsky Day",
       "position": "Speaker",
-      "url": "",
+      "url": "https://www.ndsu.edu/math/outreach/sonia_kovalevsky_day",
       "startDate": "2018-10-01",
       "endDate": "2018-10-01",
-      "summary": "Led workshop on Kepler's Laws for high school girls"
+      "summary": "Led workshop on Kepler's Laws for high school girls",
+      "location":"Fargo, ND"
     }
   ],
   "awards": [
