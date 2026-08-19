@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-08-19'
 papers:
   mKlJ6H8AAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -10,11 +10,11 @@ papers:
     title: Embedded Graph Reconstruction under Hausdorff Noise
     year: '2024'
   mKlJ6H8AAAAJ:IjCSPb-OGe4C:
-    citations: 0
+    citations: 1
     title: 'Multiscale 2-Mapper: Exploratory Data Analysis Guided by the First Betti Number'
     year: '2025'
   mKlJ6H8AAAAJ:Tyk-4Ss8FVUC:
-    citations: 2
+    citations: 4
     title: Population-scale ancestral recombination graphs with tskit 1.0
     year: '2026'
   mKlJ6H8AAAAJ:UeHWp8X0CEIC:
@@ -30,11 +30,11 @@ papers:
     title: Enhanced topological inference through higher dimensional mapper graphs.
     year: Unknown Year
   mKlJ6H8AAAAJ:qjMakFHDy7sC:
-    citations: 8
+    citations: 9
     title: 'Topobench: A framework for benchmarking topological deep learning'
     year: '2024'
   mKlJ6H8AAAAJ:u-x6o8ySG0sC:
-    citations: 10
+    citations: 11
     title: 'Icml topological deep learning challenge 2024: Beyond the graph domain'
     year: '2024'
   mKlJ6H8AAAAJ:u5HHmVD_uO8C:
